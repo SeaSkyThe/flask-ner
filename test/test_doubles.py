@@ -19,6 +19,8 @@ class DocTestDouble:
     def __init__(self, sentence, ents):
         self.ents = [SpanTestDouble(ent['text'],  ent['label_']) for ent in ents]
 
+    
+    
 class SpanTestDouble:
     '''
         Test double for spaCy Span
